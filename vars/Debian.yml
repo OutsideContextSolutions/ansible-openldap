@@ -7,6 +7,7 @@ env:
 openldap_packages:
   - slapd
   - ldap-utils
+  - ldapscripts
 
 openldap_defaults_file: /etc/default/slapd
 

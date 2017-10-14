@@ -5,7 +5,6 @@
   include_vars: "{{ ansible_distribution }}.yml"
   tags: openldap
 
-
 - name: Create OpenLDAP defaults configuration
   template: >
     src=slapd_defaults.j2
